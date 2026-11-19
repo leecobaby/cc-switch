@@ -5,6 +5,8 @@ pub mod desktop_chapters;
 pub(crate) mod hermes_wsl;
 pub mod model;
 pub mod providers;
+#[cfg(test)]
+mod screenshot_dump;
 pub mod search;
 mod search_revision;
 pub mod terminal;
